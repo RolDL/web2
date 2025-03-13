@@ -1,0 +1,56 @@
+/*Tittle*/
+h1{
+    color: green;
+    text-align: center;
+}
+
+
+body{
+    background-image: url(../Imagenes/gothamcity.jpg);
+    background-size: cover; /* Ajusta la imagen para que cubra el fondo completo */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-attachment: fixed; /* La imagen permanece fija al hacer scroll */
+    font-family: Verdana, sans-serif;
+}
+
+p{
+    color: white;
+    margin-left: 30px;
+    margin-right: 30px;
+    
+
+}
+/*First Image*/
+.photo1{
+    width: 190px; 
+    height: 300px;
+
+}
+
+/*Skills and Disadvantages*/
+h3{
+    color: rgb(5, 227, 5);
+    margin-left: 30px;
+}
+
+/*List-start*/
+.order{
+    color: rgb(62, 215, 57);
+    list-style-type: upper-roman; 
+    margin-left: 40px; 
+}
+
+.order li {
+    line-height: 1.8; /* Ajusta el espaciado vertical */
+}
+
+.unorder{
+    color: rgb(62, 215, 57);
+    list-style-type: square;
+    margin-left: 40px;
+}
+
+.unorder li{
+    padding: 5px 0;
+}
+/*List-End*/

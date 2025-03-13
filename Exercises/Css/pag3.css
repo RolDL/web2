@@ -1,0 +1,24 @@
+.img-table{
+    width: 250px; 
+    height: 250px;
+}
+
+/* Centrar la tabla */
+.styled-table {
+    margin: 0 auto; /* Centra la tabla en la página */
+    border: 3px solid darkblue; /* Borde de color */
+    border-collapse: collapse; /* Une los bordes */
+    width: 80%; /* Ajusta el ancho de la tabla */
+    text-align: center; /* Centra el texto */
+}
+
+/* Estilo para las celdas de datos y encabezados */
+.styled-table th, .styled-table td {
+    border: 1px solid black; /* Bordes de las celdas */
+    padding: 10px; /* Espaciado dentro de las celdas */
+}
+
+/* Color de fondo para las filas específicas */
+.row-color {
+    background-color: lightblue; /* Color de fondo para las filas 1 y 3 */
+}
